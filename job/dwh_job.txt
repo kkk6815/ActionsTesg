@@ -1,0 +1,529 @@
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_ic.py
+  CreatedOn: '2022-09-26T13:42:07.849000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:10:50.875000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_ic
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_ot.py
+  CreatedOn: '2022-09-26T13:41:57.432000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:11:23.041000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_ot
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_pi.py
+  CreatedOn: '2022-09-26T13:41:48.807000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:10:53.009000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account_profile_pi
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account.py
+  CreatedOn: '2022-09-26T13:42:17.734000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:47.717000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_account
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_contact.py
+  CreatedOn: '2022-09-26T13:41:38.289000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:51.189000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_contact
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_doctoradditionalinfo.py
+  CreatedOn: '2022-09-26T13:41:20.444000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:18.925000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_doctoradditionalinfo
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_login_history.py
+  CreatedOn: '2022-09-26T13:41:10.302000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:29.135000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_login_history
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_medicalcaserecord_sh.py
+  CreatedOn: '2022-09-26T13:40:58.347000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:54.039000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_medicalcaserecord_sh
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_opportunity.py
+  CreatedOn: '2022-09-26T13:39:49.645000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:43.548000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_opportunity
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_opportunity_history.py
+  CreatedOn: '2022-09-26T13:39:43.081000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:36.085000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_opportunity_history
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_profile.py
+  CreatedOn: '2022-09-26T13:39:36.445000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:43.762000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_profile
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_recordtype.py
+  CreatedOn: '2022-09-26T13:39:30.187000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:39.914000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_recordtype
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_user.py
+  CreatedOn: '2022-09-26T13:39:24.689000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:40.378000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_user
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_userrole.py
+  CreatedOn: '2022-09-26T13:39:19.555000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:06.559000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_userrole
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_wmfop.py
+  CreatedOn: '2022-09-26T13:39:14.084000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:41.634000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_wmfop
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_event.py
+  CreatedOn: '2022-09-30T16:25:39.705000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:56.456000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_tjdh_sfdc_event
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_customevent__c.py
+  CreatedOn: '2022-09-30T16:23:54.768000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:07.357000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_customevent__c
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_customeventattendance__c.py
+  CreatedOn: '2022-09-30T16:24:12.644000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:37.343000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_customeventattendance__c
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_contact.py
+  CreatedOn: '2022-09-30T16:23:35.024000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:51.349000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_contact
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_account.py
+  CreatedOn: '2022-09-30T16:22:52.983000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:47.644000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_account
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_facility_dr.py
+  CreatedOn: '2022-09-30T16:24:32.222000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:09:00.165000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_facility_dr
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_implantablereservation__c.py
+  CreatedOn: '2022-09-30T16:24:48.904000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:36.684000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_implantablereservation__c
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
+Job:
+  AllocatedCapacity: 11
+  Command:
+    Name: glueetl
+    PythonVersion: '3'
+    ScriptLocation: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/dwh_job/edh_apacanalytics_glue_job_r_d_sfdc_product_event.py
+  CreatedOn: '2022-09-30T16:25:06.125000+08:00'
+  DefaultArguments:
+    --TempDir: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/temporary/
+    --extra-py-files: s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_spark-0.1-py3-none-any.whl,s3://edh.tenant.apacanalytics.test/deploy/glue_jobs/plugins/data_hub_common-0.1-py3-none-any.whl
+    --job-bookmark-option: job-bookmark-disable
+    --job-language: python
+  ExecutionProperty:
+    MaxConcurrentRuns: 1
+  GlueVersion: '2.0'
+  LastModifiedOn: '2022-11-17T14:08:56.606000+08:00'
+  MaxCapacity: 11.0
+  MaxRetries: 0
+  Name: edh_apacanalytics_glue_job_r_d_sfdc_product_event
+  NumberOfWorkers: 10
+  Role: edh_apacanalytics_glue_role
+  Timeout: 2880
+  WorkerType: G.1X
